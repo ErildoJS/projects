@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+        .estilo1{
+            background: #FF0000;
+            color: #FFF;
+        }
+
+        .estilo2{
+            width: 400px;
+            height: 40px;
+            background-color: #FF0000;
+            text-align: center;
+            font-size: 25px;
+            color: #FFF;
+            padding: 25px;
+        }
+    </style>
+    <script>
+        function modificarClasse(){
+            document.getElementById('msg').className = 'estilo2'
+            
+
+        }
+
+        function normal(){
+            document.getElementById('msg').className = 'estilo1'
+
+        }
+    </script>
+</head>
+<body>
+    <div class="estilo1" id="msg">modificando a classe do elemento</div>
+    <hr>
+    <button type="button" onclick="modificarClasse()">aplicar classe</button>
+    <button type="button" onclick="normal()">aplicar classe normal</button>
+</body>
+</html>

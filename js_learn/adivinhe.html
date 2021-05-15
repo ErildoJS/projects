@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+    </style>
+    <script>
+        function check()
+        {
+            var n1 = document.getElementById('n1').innerHTML
+            var n2 = document.getElementById('n2').value
+
+            if(n1 == n2)
+            {
+                alert('voce acertou o numero')
+            }else{
+                alert('voce errou o numero')
+            }
+
+            reset()
+        }
+
+        function reset()
+        {
+            document.getElementById('n2').value = ''
+
+            var r = Math.floor(Math.random() * 100)
+
+            document.getElementById('n1').innerHTML = r
+        }
+    </script>
+</head>
+<body onload="reset()">
+    <div id="n1">
+0
+<input type="text" id="n2">
+<div style="clear: both;"></div>
+<button onclick="check()">check</button>
+    </div>
+</body>
+</html>

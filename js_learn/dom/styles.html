@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function modificacor(cor){
+            document.getElementById('add').style.background = cor
+        }
+    </script>
+</head>
+<body>
+    <h1>manipulando estilos com dom</h1>
+    <button type="button" onclick="modificacor('#FF0000')">red</button>
+    <button type="button" onclick="modificacor('#00FF00')">green</button>
+    <button type="button" onclick="modificacor('#0000FF')">blue</button>
+
+    <hr>
+    <div style="border: 1px solid #000; width: 100px; height: 100px" id="add">
+
+    </div>
+</body>
+</html>

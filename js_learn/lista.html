@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function add(){
+            var eng = document.getElementById('ingred').value
+            var lis = document.getElementById('lista').innerHTML
+
+            lis = lis + "<li>" + eng +"</li>"
+
+            document.getElementById('lista').innerHTML = lis
+        }
+    </script>
+</head>
+<body>
+    <h3>ingredientes</h3>
+    <input type="text" id="ingred">
+    <button onclick="add()">Adicionar</button>
+    <ul id="lista">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+</body>
+</html>

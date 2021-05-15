@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    function caractere(){
+        var carac = document.getElementById('inp').value
+        //limpar o campo de digitacao
+        document.getElementById('inp').value = ''
+
+        carac.trim()
+
+        switch(carac){
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+                document.getElementById('letras').value = carac
+                break
+            default:
+            document.getElementById('numeros').value = carac
+        }
+        
+    }
+</script>
+<body>
+    <input type="text" id="inp" placeholder="digite uma letra aqui" onkeyup="caractere()">
+    <hr>
+    <span>Letras</span>
+    <input type="text" id="letras" disabled>
+
+    <span>Numeros</span>
+    <input type="text" id="numeros" disabled>
+</body>
+</html>

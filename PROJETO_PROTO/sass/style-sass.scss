@@ -1,0 +1,36 @@
+// aninhamento
+
+
+#conteudo{
+	background: #fff;
+	color: #c3c3c3;
+	padding: 14px;
+
+	h1{
+		color: #333;
+	}
+
+	a{
+		text-decoration: none;
+		&:hover{
+			color: #fff;
+		}
+	}
+}
+
+
+//referenciando selector pai
+a{
+		text-decoration: none;
+		&:hover{
+			color: #fff;
+		}
+}
+
+
+//escopo de variavel
+
+
+
+
+

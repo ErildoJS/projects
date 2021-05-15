@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<?php
+define('BASE', 'http://localhost/CURSOS/WS_HTML5/01introducao/')
+
+?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Work Series - HTML 5  do Jeito Certo!</title>
+    <link rel="stylesheet" href="./css//oocss.css">
+
+</head>
+<body>
+    <header class="container bg-gray">
+        <div class="content">
+            <h1 class="main_logo">
+                <a title="Home" href="<?= BASE; ?>">
+                Curso Work Series - HTML 5  do Jeito Certo!</a>
+            </h1>
+
+            <ul class="main_nav">
+                <li><a title="HTML5 Semantico" href="<?= BASE; ?>/html5-semantico">Semantica</a></li>
+                <li><a title="Estilo Produtico com OOCSS" href="<?= BASE; ?>/estilo-com-oocss">OOCSS</a></li>
+                <li><a title="Formularios com HTML5" href="<?= BASE; ?>/formularios-com-html5">Forms</a></li>
+                <li><a title="Audio e Video na Web" href="<?= BASE; ?>/audio-e-video">Midias</a></li>
+                <li><a title="Geolocation e HTML Storage" href="<?= BASE; ?>/geolocation-e-storage">API'S</a></li>
+                <li><a title="Distribuiçao com Micro Dados" href="<?= BASE; ?>/micro-dados">Micro Dados</a></li>
+                <li><a class="btn btn-green radius boxshadow" title="Comprar Curso" target="_blank" href="#"></a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <!-- CONTEUDO-->
+    <article class="container">
+        <div class="content">
+            <header>
+                <hgroup>
+                    <h1>Conheça o curso WS HTML5!</h1>
+                    <h2>Veja o que o <mark>tutor</mark> do curso tem a dizer!</h2>
+                </hgroup>
+            </header>
+
+            <video src="./media/video.mp4" controls width="400"></video>
+
+            <!-- VIDEO-->
+            <aside>
+                <h1>Pronto para <a target="_blank" title="Comprar Curso WS HTML Agora!" href="#">comprar o WS HTML5</a>e aprender de verdade</h1>
+            </aside>
+            <div class="clear"></div>
+        </div>
+
+        <!-- sessao relacional - caracteristicas do produto -->
+
+        <footer class="bg-gray">
+            <section class="content">
+                <h1>Veja algumas aulas do curso WS HTML5</h1>
+
+                <article>
+                    <div class="thumb">
+                        <div class="video_play"></div>
+                        <img src="" alt="" title="">
+                    </div>
+                    <h1>Entenda o HTML5</h1>
+                </article>
+
+                <article>
+                    <div class="thumb">
+                        <div class="video_play"></div>
+                        <img src="" alt="" title="">
+                    </div>
+                    <h1>HTML5 semantico</h1>
+                </article>
+
+                <article>
+                    <div class="thumb">
+                        <div class="video_play"></div>
+                        <img src="" alt="" title="">
+                    </div>
+                    <h1>Estilo com OOCSS</h1>
+                </article>
+
+                <article>
+                    <div class="thumb">
+                        <div class="video_play"></div>
+                        <img src="" alt="" title="">
+                    </div>
+                    <h1>Geolocation e HTML5 Storgae</h1>
+                </article>
+
+                <div class="clear"></div>
+            </section>
+        </footer>
+    </article>
+
+    <!-- Sessao de conteudo relacional-->
+    <section class="container">
+        <!-- container do titulo-->
+        <div class="content">
+            <hgroup>
+                <h1>Conheça as tecnologias apresentadas</h1>
+                <h2>O curso WS HTML5 apresenta tecnicas com foco em produçao e otimizaçao de conteudo para internet</h2>
+
+            </hgroup>
+            <div class="clear"></div>
+
+            <!-- container dos artigos-->
+            <div class="container bg-gray">
+                <div class="content">
+
+                    <article>
+                        <img src="" alt="">
+                        <h1>Tecnologia apresentada</h1>
+                        <p class="tagline">Descriçao</p>
+                    </article>
+
+                    <article>
+                        <img src="" alt="">
+                        <h1>Tecnologia apresentada</h1>
+                        <p class="tagline">Descriçao</p>
+                    </article>
+
+                    <article>
+                        <img src="" alt="">
+                        <h1>Tecnologia apresentada</h1>
+                        <p class="tagline">Descriçao</p>
+                    </article>
+
+                    <article>
+                        <img src="" alt="">
+                        <h1>Tecnologia apresentada</h1>
+                        <p class="tagline">Descriçao</p>
+                    </article>
+
+                    <article>
+                        <img src="" alt="">
+                        <h1>Tecnologia apresentada</h1>
+                        <p class="tagline">Descriçao</p>
+                    </article>
+
+                    <article>
+                        <img src="" alt="">
+                        <h1>Tecnologia apresentada</h1>
+                        <p class="tagline">Descriçao</p>
+                    </article>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessao de conteudo tematico - ficha tecnica do produto -->
+    <section class="container">
+        <div class="content">
+            <div class="ses_title">
+                <h1>Ficha Tecnica</h1>
+                <p class="tagline">Saiba mais sobre o conteudo do curso WS HTML5</p>
+            </div>
+
+            <article>
+                <h1>Tempo em aula: <b>23h</b></h1>
+            </article>
+
+            <article>
+                <h1>Certificado <b>230h</b></h1>
+            </article>
+
+            <article>
+                <h1>Modulos<b>8M</b></h1>
+            </article>
+
+            <article>
+                <h1>Video aulas <b>20</b></h1>
+            </article>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <!-- bloco de converçao - recomendado ter nos sites antes fo footer-->
+    <article class="container bg-gray">
+        <div class="content">
+            <header>
+                <hgroup>
+                <h1>Faça parte da Turma WS HTML5, Matricuke-se!</h1><!-- o mesmo que o title-->
+                <h2>Começe agora mesmo. O curso é <mark>100 em video aulas</mark> , <mark>Online e </mark> <mark>On Demand!</mark></h2><!-- chama pro conteudo
+                    do article-->
+                </hgroup>
+            </header>
+
+            <a title="Quero me Matricular no Curso WS HTML 5 Agoara" href="#" target="_blank">Comprar WS HTML 5</a>
+
+            <footer>
+                <div>
+                    Voce estuda quando e onde quiser na melhor plataforma EAD
+                </div>
+            </footer>
+            <div class="clear"></div>
+        </div>
+    </article>
+
+    <!-- content visual-->
+    <div class="container">
+        <div class="content">
+            Upinside Treinamentos
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+
+    <!-- CONTEUDO-->
+
+    <footer class="container bg-light">
+        <section class="main_footer content">
+
+            <h1 class="fontzero">Upinside Treinamentos</h1>
+                <nav class="main_nav">
+
+                    <h1 class="title">Mais sobre o WS HTML5:</h1>
+                    <ul>
+                        <li><a title="Assista o video de apresentaçao" href="#apresentacao">Assista o video</a></li>
+                        <li><a title="Assista o video de apresentaçao" href="#apresentacao">Assista o video</a></li>
+                        <li><a title="Assista o video de apresentaçao" href="#apresentacao">Assista o video</a></li>
+                    </ul>
+                </nav>
+
+                <article class="main_social">
+                    <h1 class="title">Sobre a Upinside nas redes sociais</h1>
+
+                    <ul>
+                        <li><a target="_blank" rel="nofollow" title="Upinside Treinamentos no Facebook" href="http:www.facebook.com">Facebook</a></li>
+                        <li><a target="_blank" rel="nofollow" title="Upinside Treinamentos no Google Plus" href="http:www.plus.google.com">Google+</a></li>
+                        <li><a target="_blank" rel="nofollow" title="Upinside Treinamentos no Twitter" href="http:www.twitter.com">Twitter</a></li>
+                    </ul>
+
+                </article>
+
+                <article class="main_copy">
+                    <h1 class="fontzero">Plataforma Upinside:</h1>
+
+                    <p></b>Plataforma EAD:</b><a title="plataforma EAD da upinside" href="http://www.upinside.com.br">www.upinside.com.br</a></p>
+                    <p></b>E-mail:</b> <a title="envie um e-mail" href="mailto:Erildo@gmail.com">Erildo@gmail.com</a></p>
+
+                    <hr>
+                    <p>&copy; <?= date("Y"); ?> - Upinside Treinamentos, Todos Os Direitos Reservados!</p>
+                </article>
+            <div class="clear"></div>
+        </section>
+    </footer>
+</body>
+</html>

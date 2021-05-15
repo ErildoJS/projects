@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var nome = prompt('digite seu nome: ')
+        var alt = prompt('sua altura em cm: ')
+        var pes = prompt('seu peso: ')
+
+        alt = parseFloat(alt)
+        pes = parseFloat(pes)
+
+        alt = alt / 100
+        var massa = pes / (alt * alt)
+
+        if(massa < 16){
+            document.write('muito abaixo do peso')
+        }else if(massa >= 16 && massa < 16.99){
+            document.write('abaixo do peso')
+        }else if(massa >= 17 && massa < 18.49){
+            document.write('baixo do peso')
+        }else if(massa >= 18.50 && massa < 24.99){
+            document.write('peso ideal')
+        }else if(massa >= 25 && massa < 29.99){
+            document.write('sobrepeso')
+        }else if(massa >= 30 && massa < 34.99){
+            document.write('obesidade grau i')
+        }else if(massa >= 35 && massa < 39.99){
+            document.write('obesidade grau ii')
+        }else {
+            document.write('obesidade grau iii')
+
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
