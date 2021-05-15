@@ -1,0 +1,22 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "http://localhost:5000",
+      "name": "ErildoFrancisco",
+      "birth": 951264000000,
+      "gender": "M",
+      "services": "crossfit ",
+      "created_at": 1585903407998
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://localhost:5000",
+      "name": "Erildo Php",
+      "birth": 888019200000,
+      "gender": "M",
+      "services": "crossfit 3",
+      "created_at": 1585916378686
+    }
+  ]
+}
