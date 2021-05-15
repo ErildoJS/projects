@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let video = document.getElementById("video1")
+
+        function retroceder() {
+            video.currentTime -= 15//voltar 15 segundos
+        }
+
+        function aumentar() {
+            video.currentTime += 15//voltar 15 segundos
+
+        }
+
+        function avancar_vel() {
+            video.playbackRate += 0.1//avançar a velocidade em 0.1
+        }
+
+        function diminuir_vel() {
+            video.playbackRate -= 0.1//diminui a velocidade em 0.1
+
+        }
+
+        function play() {
+            video.play()            
+        }
+
+        function stop() {
+            video.pause //pause - para o video
+            video.currentTime = 0 //volto para o inicio do  video
+        }
+    </script>
+</body>
+</html>

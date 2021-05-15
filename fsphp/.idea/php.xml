@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/uploader" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/paginator" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/cropper" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/optimizer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/composer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/league/plates" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>

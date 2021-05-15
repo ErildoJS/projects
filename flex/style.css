@@ -1,0 +1,67 @@
+*{
+    border: 1px solid red;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+}
+
+.box{
+    background: orange;
+    padding: 0 40px;
+    border-radius: 5px;
+
+}
+/* flex-container = pai
+   box - elementos filhos ou flex itens
+ */
+
+/* tags flex usados nos elementos pai
+display: flex; - todos elementos filhos ficam em linha, elimina os width com px
+
+flex-direction - deircao dos filhos
+    row - linha
+    column - coluna
+    column-reverse - coluna reversa
+    row-reverse- linha reversa
+
+flex-wrap - quebra os elementos filhos caso nao cabem numa linha
+    nowrap - nao quebra de linha
+    wrap - quebra
+    wrap-reverse - quebra e reverte os elementos
+
+flex-flow - abreviacao de flex-direction e flex-wrap
+
+ */
+
+/** propriedades dos box
+flex-grow - crescer - cresce ocupando todo o resto, funciona como coluna ,
+    0 - valor padrao
+    1 - ocupa so uma coluna
+    2 - duas colunas
+
+flex-shrink - encolher o elemento
+    1 - padrao
+flex-basis - tamanho dos elementos
+    auto - aumento em relacao ao conteudo
+
+flex - encurta as tags(flex-grow), (flex-shrink), (flex-basis)
+ */
+/*nth-child - seleciona de ordem hiearquica*/
+.flex-container:nth-child(2) > .box {
+    background: #bdaaf0;
+}
+
+.flex-item-1 {
+    padding: 0;
+    width: 25px;
+
+}
+
+.flex-item-1:nth-child(1) {
+    flex-basis: 25%;
+}
+

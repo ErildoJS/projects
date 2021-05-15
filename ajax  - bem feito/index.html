@@ -1,0 +1,59 @@
+<html>
+	<head>
+        <meta charset="utf-8" />
+            <title>ajax</title>
+            <style>
+                .content{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+    
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                }
+            </style>
+            <script>
+                function reqPagina(url){
+                    //incluir o gif de loading
+
+
+                    let ajax = new XMLHttpRequest()
+    
+                ajax.open('GET', url)
+                ajax.onreadystatechange = function(){
+                    console.log(ajax.readyState)
+                }//executado sempre 
+                //quando o estado da requisicao e mudado
+    
+                console.log(ajax)
+
+                //state
+                console.log(ajax.readyState)
+                
+                ajax.send()
+
+                //status
+                ajax.status
+                
+            </script>
+        </head>
+    
+      <body>
+        <div class="content">
+            <ul>
+                <li>
+                    <a href="#" id="homee">Home</a>
+                </li>
+                <li>
+                    <a href="#" id="sobree">Sobre</a>
+                </li>
+            </ul>
+            <div id="conteudo">
+    
+            </div>  
+        </div>
+        <script src="jquery.js"></script>
+        <script src="async.js"></script>
+      </body>	
+</html>

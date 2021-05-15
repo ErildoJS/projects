@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="parag">ola paragrafo</p>
+
+    <!-- oninput - muda o texto consoante voce vai digitando -->
+    <input type="text" oninput="mudou()">
+    <script>
+        //add tags html
+        document.getElementById("parag").innerHTML
+
+        //add e mostra so o que aparece na tela
+        document.getElementById("parag").innerText
+
+        //add e mostra o que aparece em tela mas tbm o que esta escondido
+        document.getElementById("parag").textContent
+
+        //modificando atributos
+        document.getElementById("parag").className = "outraClasse"
+
+        //setando atributo
+        document.getElementById("parag").setAttribute("nomeAttr", "novoValor")
+
+
+        document.getElementById("parag").getAttribute("nomeAttr")
+
+    </script>
+</body>
+</html>

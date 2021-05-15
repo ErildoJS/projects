@@ -1,0 +1,48 @@
+#cm {
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm {
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+
+#in {/* polegadas*/
+    background-color: green;
+    width: 1in;
+    height: 1in;
+}
+
+#px {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
+
+#pt {
+    background-color: blue;
+    width: 10pt;
+    height: 1pt;
+}
+
+p {
+    text-align: justify;
+    word-spacing: 3px;/*distancia de uma palavra*/
+}
+
+.links:visited {
+
+}/*  visitado*/
+.links:hover {}/*  visitado*/
+.links:active {}/*  visitado*/
+
+.links {
+    visibility: hidden;//esconde o elemento mas mantem o seu espaço em tela
+}
+
+/*overflow  - quando temos um elemento e o seu conteudo é maior que ele*/
+
+

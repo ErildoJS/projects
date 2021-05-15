@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b705f40e-d565-4982-b80b-a2801b5d20d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/07-recursos-e-componentes/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="69b4c2d5-6b5d-4266-89b4-950eeb70fef8" />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/uploader" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/paginator" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/cropper" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/optimizer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/composer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/league/plates" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1YjD2Mh8D6rUiix5AhbKbX8Bmcf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/cafecontrol" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\fsphp\source\Boot" />
+      <recent name="C:\xampp\htdocs\fsphp\shared\scripts" />
+      <recent name="C:\xampp\htdocs\fsphp\shared\styles" />
+      <recent name="C:\xampp\htdocs\fsphp\themes\cafecontrol\__template\assets\js" />
+      <recent name="C:\xampp\htdocs\fsphp\themes\cafecontrol\__template\assets\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\fsphp\themes\cafecontrol" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b705f40e-d565-4982-b80b-a2801b5d20d2" name="Default Changelist" comment="" />
+      <created>1583446903908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583446903908</updated>
+      <workItem from="1583446910596" duration="4761000" />
+      <workItem from="1583486807724" duration="422000" />
+      <workItem from="1583487252261" duration="5076000" />
+      <workItem from="1583784498400" duration="4320000" />
+      <workItem from="1583827563085" duration="8559000" />
+      <workItem from="1583845738147" duration="4033000" />
+      <workItem from="1583938578376" duration="124000" />
+      <workItem from="1583946040956" duration="118000" />
+      <workItem from="1583946188755" duration="35000" />
+      <workItem from="1583946226100" duration="781000" />
+      <workItem from="1584022929847" duration="3946000" />
+      <workItem from="1584084622668" duration="3061000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="33" key="#CLI_Interpreters" timestamp="1583487321140">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="92" y="33" key="#CLI_Interpreters/0.0.1024.728@0.0.1024.728" timestamp="1583487321140" />
+    <state x="104" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583447507210">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.728@0.0.1024.728" timestamp="1583447507210" />
+    <state x="423" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1584085747438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="317" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1583492297622" />
+    <state x="423" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584085747438" />
+    <state x="413" y="122" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584085468094">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="122" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584085468094" />
+    <state x="386" y="247" width="432" height="242" key="ComposerInitDialogKey" timestamp="1583946377848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="247" width="446" height="262" key="ComposerInitDialogKey/0.0.1024.728@0.0.1024.728" timestamp="1583487334331" />
+    <state x="386" y="247" width="432" height="242" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1583946377848" />
+    <state x="292" y="133" key="FileChooserDialogImpl" timestamp="1583447048436">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="133" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1583447048436" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1583447513416">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1024.728@0.0.1024.728" timestamp="1583447513416" />
+    <state x="446" y="178" key="NewPhpClassDialog" timestamp="1584085106407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="334" y="178" key="NewPhpClassDialog/0.0.1024.728@0.0.1024.728" timestamp="1583491203757" />
+    <state x="446" y="178" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1584085106407" />
+    <state x="517" y="295" key="NewPhpFileDialog" timestamp="1583828767182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="295" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583828767182" />
+    <state x="284" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584084805256">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="187" key="com.intellij.ide.util.TipDialog/0.0.1024.728@0.0.1024.728" timestamp="1583487238386" />
+    <state x="284" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584084805256" />
+    <state x="390" y="0" width="586" height="728" key="find.popup" timestamp="1583849349997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="586" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583849349997" />
+  </component>
+</project>

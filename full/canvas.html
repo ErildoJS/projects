@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- canvas - uma tela onde podemos desenhar-->
+    <canvas id="tela"></canvas>
+
+    <script>
+        let tela = document.getElementById("tela")
+        //ctx ou contexto é a area onde vao ficar os desenhos
+        let ctx = tela.getContext("2d")
+        // // // // // ctx.moveTo(0,0)//movendo pra o inicio do quadrado
+        // // // // // ctx.lineTo(250,150)//criando um linha
+        // // // // // ctx.lineWidth = 5//aumentando a espessura da linha
+        // // // // // ctx.strokeStyle = "red"//cor da linha
+        // // // // // ctx.stroke()//espesurra de linha
+
+        // ctx.moveTo(0,0)//movendo pra o inicio do quadrado
+        //  ctx.fillStyle = "blue" //cor do retangulo
+        //  ctx.fillRect(10, 10, 100, 200)//x, y, width, height - retangulo preenchido
+        ctx.strokeStyle = "blue"
+        ctx.strokeRect(10, 10, 100, 200)
+    </script>
+</body>
+</html>

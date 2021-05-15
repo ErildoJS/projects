@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-header{
+    background: #333;
+    width: 25%;
+}
+
+.main-header .width-img {
+    width: 100%;
+    padding: 3px;
+    border: 2px solid #FFF;
+}
+
+.main-header h1{
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    margin: 20px;
+}
+
+.main-header p {
+    font-size: 20px;
+    color: #CCC;
+    text-align: center;
+}
+
+.width-img {
+    width: 200px;
+    height: 200px;
+}
