@@ -1,0 +1,4 @@
+export default {
+  publicKey: 'pk_test_51HMFlJJUe8FeqCaBQTPmUBUSu2AKM0IsYU6niD5ccp08Lt2YjVD7rnoCkhBz1uUWMOI5Y9KmcxPzEcJ8qJUY1uVL006oYvJ7Mj',
+  secretKey: 'sk_test_51HMFlJJUe8FeqCaBwlUL4zykzDPqfTNm9p06q2k3CLMO4qMAzdM41mK1qN960RrjBEsWmXBCNdmlySatZtZnnO0m00KVxKtxxN'
+}
